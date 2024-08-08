@@ -1,0 +1,139 @@
+/* The sidepanel menu */
+.sidepanel {
+    height: 1000px; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #2e4450; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#2e4450;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  .divL{
+    
+    width: 70%;
+      height: 800px;
+      float: left;
+      margin-left: 15%;
+  }
+  .up{
+    width: 100%;
+      float: left;
+  }
+  .divpatient{
+     border-radius: 5px;
+    background-color:#d7baad;
+    padding: 20px;
+  
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+   background-color: #e6e6e6;
+  
+  }
+  
+  input[type=submit] {
+    width: 49%;
+    background-color: #527c88;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=reset] {
+    width: 49%;
+    background-color: #527c88;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    box-shadow: 0 12px 16px 0 #8c8c8c, 0 17px 50px 0 #8c8c8c;
+  }
+  input[type=reset]:hover {
+    box-shadow: 0 12px 16px 0 #8c8c8c, 0 17px 50px 0 #8c8c8c;
+  }
+  
+  textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+  .pdetails{
+    padding-top: 30px;
+  
+    font-size: 20px;
+  }
+  .otherb{
+    width: 200px;
+    background-color: #2e4450;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pname{
+    width: 100px;
+  }
+ 
